@@ -123,6 +123,10 @@
             font-weight: 600;
             color: $white;
             border: 2px solid $white;
+            &:hover{
+                background-color: $white;
+                color: $main;
+            }
             @media screen and (max-width: 767px) {
                 height: 40px;
                 font-size: 16px;
@@ -220,6 +224,10 @@
                         font-weight: 600;
                         color: $white;
                         background-color: $main;
+                        &:hover{
+                            background-color: $white;
+                            color: $main;
+                        }
                         @media screen and (max-width: 767px) {
                             height: 40px;
                             font-size: 16px;
@@ -243,7 +251,10 @@
                 .nav-cont{
                     .btn-hero-header{
                         background-color: $main;
-
+                        &:hover{
+                            background-color: $white;
+                            color: $main;
+                        }
                     }
                     .price{
                         display: flex;
@@ -698,5 +709,9 @@ footer {
         padding: 0px 24px;
         background-color: $main;
         width: fit-content;
+        &:hover{
+            background-color: $white;
+            color: $main;
+        }
     }
 }

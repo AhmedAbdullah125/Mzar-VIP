@@ -297,6 +297,11 @@ html[dir="ltr"] .progress-bar {
   border: 1px solid #e4e7e9;
   text-decoration: none !important;
   transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: $white;
+    border-color: $hover;
+    color: $hover;
+  }
   &.arrow {
     border-color: $hover;
     color: $hover;

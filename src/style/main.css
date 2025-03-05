@@ -376,6 +376,11 @@ html[dir=ltr] .progress-bar {
   text-decoration: none !important;
   transition: all 0.3s ease-in-out;
 }
+.custom-pagention a:hover {
+  background-color: var(--white-color);
+  border-color: var(--main-hover);
+  color: var(--main-hover);
+}
 .custom-pagention a.arrow {
   border-color: var(--main-hover);
   color: var(--main-hover);
@@ -579,6 +584,10 @@ ul.breadcrumb li a:hover {
   color: var(--white-color);
   border: 2px solid var(--white-color);
 }
+.hero .nav-cont .btn-hero-header:hover {
+  background-color: var(--white-color);
+  color: var(--main-color);
+}
 @media screen and (max-width: 767px) {
   .hero .nav-cont .btn-hero-header {
     height: 40px;
@@ -675,6 +684,10 @@ ul.breadcrumb li a:hover {
   color: var(--white-color);
   background-color: var(--main-color);
 }
+.hero .overlay .body-container .hero-body .hero-body-btns .btn-book:hover {
+  background-color: var(--white-color);
+  color: var(--main-color);
+}
 @media screen and (max-width: 767px) {
   .hero .overlay .body-container .hero-body .hero-body-btns .btn-book {
     height: 40px;
@@ -696,6 +709,10 @@ ul.breadcrumb li a:hover {
 }
 .book-sec .relative .overlay .nav-bar .nav-cont .btn-hero-header {
   background-color: var(--main-color);
+}
+.book-sec .relative .overlay .nav-bar .nav-cont .btn-hero-header:hover {
+  background-color: var(--white-color);
+  color: var(--main-color);
 }
 .book-sec .relative .overlay .nav-bar .nav-cont .price {
   display: flex;
@@ -1062,6 +1079,10 @@ footer .footer-cont .social {
   background-color: var(--main-color);
   width: -moz-fit-content;
   width: fit-content;
+}
+.tips a:hover {
+  background-color: var(--white-color);
+  color: var(--main-color);
 }
 
 .day-content {
